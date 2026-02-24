@@ -12,20 +12,34 @@ import Button from './components/button'
 import InputLogger from './components/input-logger'
 import Timer from './components/timer'
 import Welcome from './components/welcome'
-
-
+import TodoList from './components/to-do-list'
+import Product from './components/product'
+import UserCard from './components/UserCard'
+import Parent from './components/Parent'
+import LikeButton from './components/LikeButton'
+import ToggleMessage from './components/ToggleMessage'
+import ProfileStatus from './components/ProfileStatus'
+import ProfileForm from './components/ProfileForm'
+import FormValidation from './components/FormValidation'
+import DebounceInput from './components/DebounceInput'
+import ParentCallback from './components/ParentCallback'
+import MemoParent from './components/MemoComponent'
 
 function App() {
-  const [count,setCount] = useState(0)
+  // const [count,setCount] = useState(0)
  
-  function increase () {
-    setCount(count + 1)
-  }
+  // function increase () {
+  //   setCount(count + 1)
+  // }
 
   return (
     <>
-
-      <Greeting name = 'Farzin'/>
+      {/* <MemoComponent/> */}
+      <ParentCallback/>
+      {/* <FormValidation/> */}
+      {/* <Effect/> */}
+      {/* <DebounceInput delay={500} onDebounce={(value) => console.log(value)}/> */}
+      {/* <Greeting name = 'Farzin'/>
       <br />
       <br />
       <ProductCard title='Iphone 15' price='999$' description='A powerful smartphone.'/>
@@ -61,10 +75,11 @@ function App() {
       <Timer/>
       <br />
       <br />
-      <Welcome/>
-
-      
-
+      <Welcome/> */}
+{/* 
+      <TodoList/> */}
+      {/* <UserCard firstName={'Farzin'} lastName={'P'} age={38}/> */}
+      {/* <ToggleMessage/> */}
     </>
   )
 }

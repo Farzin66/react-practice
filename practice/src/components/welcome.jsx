@@ -1,13 +1,15 @@
-import React, { useEffect } from 'react'
 
 const Welcome = () => {
 
-    useEffect(() => {
-        console.log('welcom')
-    },[])
+  
+  const name = 'Farzin'
+  
 
   return (
-    <div>Welcome Page</div>
+    <div>
+      <h1>Hello {name}</h1>
+      <p>welcome to JSX world</p>
+    </div>
   )
 }
 
