@@ -24,6 +24,11 @@ import FormValidation from './components/FormValidation'
 import DebounceInput from './components/DebounceInput'
 import ParentCallback from './components/ParentCallback'
 import MemoParent from './components/MemoComponent'
+import ThemeProvider from './context/ThemeProvider'
+import ThemeHome from './components/ThemeHome'
+import RefComponent from './components/RefComponent'
+import FocusForm from './components/FocusForm'
+import CommentBox from './components/CommentBox'
 
 function App() {
   // const [count,setCount] = useState(0)
@@ -34,8 +39,15 @@ function App() {
 
   return (
     <>
+
+      {/* <RefComponent/> */}
+      {/* <FocusForm/> */}
+      <CommentBox/>
+      {/* <ThemeProvider>
+      <ThemeHome/>
+      </ThemeProvider> */}
       {/* <MemoComponent/> */}
-      <ParentCallback/>
+      {/* <ParentCallback/> */}
       {/* <FormValidation/> */}
       {/* <Effect/> */}
       {/* <DebounceInput delay={500} onDebounce={(value) => console.log(value)}/> */}
