@@ -29,6 +29,11 @@ import ThemeHome from './components/ThemeHome'
 import RefComponent from './components/RefComponent'
 import FocusForm from './components/FocusForm'
 import CommentBox from './components/CommentBox'
+import CounterDisplay from './components/CounterDisplay'
+import SetCounter from './components/SetCounter'
+import MultiCounterDisplay from './components/MultiCounterDisplay'
+import ThemeToggle from './components/ThemeToggle'
+import UserPanel from './components/UserPanel'
 
 function App() {
   // const [count,setCount] = useState(0)
@@ -40,9 +45,15 @@ function App() {
   return (
     <>
 
+      <MultiCounterDisplay/>
+      <ThemeToggle/>
+      <UserPanel/>
+
+      {/* <CounterDisplay/>
+      <SetCounter/> */}
       {/* <RefComponent/> */}
       {/* <FocusForm/> */}
-      <CommentBox/>
+      {/* <CommentBox/> */}
       {/* <ThemeProvider>
       <ThemeHome/>
       </ThemeProvider> */}
